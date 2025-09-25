@@ -3,7 +3,7 @@ void magda(float posx, float posy) {
   translate(posx,posy);
   rectMode(CENTER);
   arc(50, 50, 100, 100, radians(180), radians(360));
-  rect(50, 75, 50, 500);
+  rect(50, 75, 50, 50);
   line(0, 50, 0, 100);
   line(100, 50, 100, 100);
   line(0, 100, 100, 100);
