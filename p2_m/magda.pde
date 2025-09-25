@@ -1,5 +1,5 @@
 void magda(float posx, float posy) {
-  pushMatrix();
+  push();
   translate(posx,posy);
   rectMode(CENTER);
   arc(50, 50, 100, 100, radians(180), radians(360));
@@ -10,5 +10,5 @@ void magda(float posx, float posy) {
   ellipse(42, 68, 12, 12);
   ellipse(58, 68, 12, 12);
   arc(50, 85, 28, 28, radians(0), radians(180));
-  popMatrix();
+  pop();
 }
